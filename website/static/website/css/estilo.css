@@ -1,9 +1,18 @@
 @font-face {
-    font-family: 'Apple Garamond Light';
+    font-family: 'AppleGaramond-Light';
     src: url('../css/AppleGaramond-Light.ttf') format('truetype');
+}
+
+body{
+    font-family: 'AppleGaramond-Light';
+    background-color: black;
 }
 
 .logo{
     width: 200px;
     height:100px;
+}
+
+.item{
+    color: white;
 }

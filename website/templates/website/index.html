@@ -1,3 +1,8 @@
 {% extends 'website/base.html' %}
 {% load static %}
 {% block title %}Início{% endblock title %}
+{% block content %}
+    <section class="hero-section mx-auto text-center">
+        <img src="{% static 'website/img/background.jpg' %}" alt="Imagem Central" class="img-fluid">
+    </section>
+{% endblock content %}

@@ -118,7 +118,7 @@ def equipe (request):
     context = {
         "atores": atores
     }
-    return render(request, "website/equipe.html")
+    return render(request, "website/equipe.html", context)
 
 def sobre (request):
     return render(request, "website/sobre.html")
