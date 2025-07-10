@@ -16,3 +16,12 @@ body{
 .item{
     color: white;
 }
+
+.navbar{
+    font-size: 20px;
+}
+
+footer div{
+    height: 50px;
+    background-color: rgb(111, 47, 33);
+}
