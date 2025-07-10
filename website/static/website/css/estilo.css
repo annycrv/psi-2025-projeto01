@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Apple Garamond Light';
+    src: url('../css/AppleGaramond-Light.ttf') format('truetype');
+}
+
+.logo{
+    width: 200px;
+    height:100px;
+}
