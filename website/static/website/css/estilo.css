@@ -5,6 +5,10 @@
 
 body{
     font-family: 'AppleGaramond-Light';
+    background-color: rgb(237, 203, 203);
+}
+
+.hero-section{
     background-color: black;
 }
 
@@ -25,3 +29,8 @@ footer div{
     height: 50px;
     background-color: rgb(111, 47, 33);
 }
+
+.main{
+    font-size: 18px;
+}
+
