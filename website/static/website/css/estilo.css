@@ -66,3 +66,19 @@ footer div{
 .elenco a{
     text-decoration: none;
 }
+
+.imagens{
+    width: 600px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+
+.conteudos{
+    font-size: 20px;
+    margin-top: 300px;
+}
+
+.main{
+    height: 100vh;
+}

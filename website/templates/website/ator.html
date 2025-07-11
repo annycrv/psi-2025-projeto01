@@ -2,10 +2,11 @@
 {% load static %}
 {% block title %}Atores{% endblock title %}
 {% block content %}
-<div class="main container-fluid mb-4">
-    <div class="row text-center mt-5 align-items-center">
-        <div class="col-md-6 pe-5">
-            <p>{{ conteudo|safe }}</p>
+<div class="main container-fluid">
+    <div class="row text-center">
+        <div class="row pe-5">
+            <img class="imagens" src="{% static atorimg %}" class="imgator img-fluid rounded col-md-6">
+            <p class="conteudos col-md-6">{{ conteudo|safe }} <br> {{ posicao }} <br> {{ nascimento }}</p>
         </div>
     </div>
 </div>
