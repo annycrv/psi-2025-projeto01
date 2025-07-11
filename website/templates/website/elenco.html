@@ -1,0 +1,25 @@
+{% extends 'website/base.html' %}
+{% load static %}
+{% block title %}Elenco{% endblock title %}
+{% block content %}
+<main class="elenco">
+    <div class="container px-4 px-lg-5">
+    <div class="row gx-4 gx-lg-5">
+        <div class="col-md-10 col-lg-8 col-xl-7 mt-5">
+        <!-- Lista de atores-->
+        {% for ator in atores %}
+        <div class="post-preview">
+            <a href="{% url 'ator' ator.id  %}">
+                <h2 class="ator-nome">{{ ator.nome }}</h2>
+                <h3 class="ator-idade">{{ ator.idade }}</h3>
+                <img src="{% static ator.imagem %}" alt="{{ ator.Nome }}" class="imgator img-fluid rounded mb-3">
+            </a>
+        </div>
+        <!-- Divider -->
+        <div class="pt-5">
+        {% endfor %}
+        </div>
+    </div>
+    </div>
+</main>
+{% endblock content%} 

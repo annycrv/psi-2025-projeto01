@@ -46,3 +46,23 @@ footer div{
     background-color: #2e4a62;
 }
 
+.elenco{
+    background-color: #2e4a62;
+}
+
+.info{
+    color: #f4f1e6;
+
+}
+
+.imgator{
+    width: 220px;
+}
+
+.ator-nome, .ator-idade{
+    color: white;
+}
+
+.elenco a{
+    text-decoration: none;
+}
