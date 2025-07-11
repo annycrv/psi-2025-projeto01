@@ -107,7 +107,7 @@ atores = [
         "idade": "53 anos",
         "posicao": "Personagem: Joyce Byers",
         "nascimento": "Data de Nascimento: 29 de outubro de 1971",
-        "imagem": "website/img/winona1.jpg",
+        "imagem": "website/img/winona2.jpg",
         "atorimg": "website/img/a_winona.jpg",
         "conteudo": "Winona é uma lenda de Hollywood, famosa desde os anos 90 por filmes como 'Edward Mãos de Tesoura' e 'Beetlejuice'."
     },
