@@ -5,7 +5,7 @@
 
 body{
     font-family: 'AppleGaramond-Light';
-    background-color: rgb(237, 203, 203);
+    background-color:black
 }
 
 .hero-section{
@@ -18,11 +18,12 @@ body{
 }
 
 .item{
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 .navbar{
     font-size: 20px;
+    background-color:#f4f1e6 ;
 }
 
 footer div{
@@ -32,6 +33,8 @@ footer div{
 
 .main{
     font-size: 18px;
+    background-color: #2e4a62;
+    color: white;
 }
 
 .Sobre{
