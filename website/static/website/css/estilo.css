@@ -82,12 +82,21 @@ footer div{
 }
 
 .mainat{
-    height: 100vh;
     background-color: #2e4a62;
     color: white;
+    height: calc(100vh - 171px);
 }
 
 
 .parag{
     font-size: 22px;
+}
+
+.imgator{
+    width: 350px;
+    height: 300px;
+}
+
+.atorb{
+    height: 100vh;
 }

@@ -135,11 +135,18 @@ atores = [
     },
 ]
 
+conteu = [
+    {
+        "texto":"Stranger Things é uma série de ficção científica e suspense que conquistou milhões de fãs ao redor do mundo desde sua estreia em 2016. Ambientada nos anos 80, a história gira em torno de acontecimentos sobrenaturais que ocorrem na pequena cidade de Hawkins, Indiana. Misturando elementos de terror, nostalgia, amizade e aventura, a série cativa o público com seu enredo envolvente e referências à cultura pop da época <br> <br> Nosso site foi criado especialmente para quem deseja conhecer mais sobre o universo de Stranger Things. Aqui, reunimos informações sobre os personagens, curiosidades sobre a trama, conexões entre as temporadas e detalhes sobre os acontecimentos mais marcantes da série. O conteúdo foi organizado de forma clara e acessível, com o objetivo de facilitar a navegação e o aprendizado. <br> <br>  Este projeto foi desenvolvido por Anny Carolline e Williany Vitória como parte de uma atividade escolar. Nosso objetivo é unir entretenimento e conhecimento, apresentando de forma criativa uma das séries mais populares da atualidade. Esperamos que você aproveite o conteúdo e se aprofunde ainda mais nesse mundo cheio de mistérios e aventuras!",
+    },
 
-
+    {
+        "texto2": "Stranger Things é uma série de televisão via streaming estadunidense dos gêneros ficção científica, terror, suspense e drama adolescente, criada, escrita e dirigida pelos irmãos Matt e Ross Duffer para a plataforma Netflix. Os irmãos Duffer, Shawn Levy e Dan Cohen são também os produtores executivos.<br> A série se passa na década de 1980, em Hawkins, Indiana, onde um grupo de crianças e adolescentes enfrenta forças sobrenaturais e conspirações secretas. A história começa com o desaparecimento misterioso de Will Byers, levando sua mãe, Joyce, o chefe de polícia Jim Hopper e seus amigos a investigar o ocorrido, descobrindo experimentos secretos e uma passagem para um mundo paralelo chamado 'Mundo Invertido'."
+    },
+]
 
 def index(request):
-    return render(request, "website/index.html")
+    return render(request, "website/index.html", conteu[1])
 
 def elenco(request):
     context = {
@@ -151,4 +158,4 @@ def ator(request, id_ator):
     return render(request, "website/ator.html", atores[id_ator-1])
 
 def sobre(request):
-    return render(request, "website/sobre.html")
+    return render(request, "website/sobre.html", conteu[0])
