@@ -4,10 +4,9 @@
 {% block content %}
 <body class="atorb">
     <div class="mainat container-fluid">
-        <div class="row text-center">
-            <div class="row pe-5">
-                <img class="imagens" src="{% static atorimg %}" class="imgator img-fluid rounded col-md-6">
-                <p class="conteudos col-md-6">{{ conteudo|safe }} <br> {{ posicao }} <br> {{ nascimento }}</p>
+            <div class="row pe-5 align-items-center">
+                <img class="imagens" src="{% static atorimg %}" class="imgator img-fluid rounded">
+                <p class="conteudos col-md-6">{{ nome }} <br>{{ conteudo|safe }} <br> {{ posicao }} <br> {{ nascimento }}</p>
             </div>
         </div>
     </div>
