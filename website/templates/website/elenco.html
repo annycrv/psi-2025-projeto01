@@ -8,9 +8,9 @@
         <!-- Lista de atores-->
         {% for ator in atores %}
         <div class="col-md-4 py-4">
-            <a href="{% url 'ator' ator.id  %}">
-                <h2 class="ator-nome text-center">{{ ator.nome }}</h2>
-                <img src="{% static ator.imagem %}" alt="{{ ator.Nome }}" class="imgator img-fluid rounded mb-3">
+            <a href="{% url 'atores' atores.id  %}">
+                <h2 class="ator-nome text-center">{{ atores.nome }}</h2>
+                <img url('{{ website.imagem.url }}') alt='{{ atores.nome }}' class="imgator img-fluid rounded mb-3">
             </a>
         </div>
         {% endfor %}

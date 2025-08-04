@@ -5,8 +5,8 @@
 <body class="atorb">
     <div class="mainat container-fluid">
             <div class="row pe-5 align-items-center">
-                <img class="imagens" src="{% static atorimg %}" class="imgator img-fluid rounded">
-                <p class="conteudos col-md-6">{{ nome }} <br>{{ conteudo|safe }} <br> {{ posicao }} <br> {{ nascimento }}</p>
+                <img  url('{{ website.imagem.url }}') class="imgator img-fluid rounded imagens">
+                <p class="conteudos col-md-6">{{ atores.nome }} <br>{{ atores.conteudo|safe }} <br> {{ atores.personagem }} <br> {{ atores.nascimento }}</p>
             </div>
         </div>
     </div>
