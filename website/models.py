@@ -18,4 +18,13 @@ class Ator(models.Model):
 class Elenco(models.Model):
     imagem_e = models.ImageField(upload_to='imagens/')
 
+class Index(models.Model):
+    texto = models.CharField(max_length=3000)
+    banner = models.ImageField(upload_to='imagens/')
+
+    def __str__(self):
+        return self.texto
     
+
+class Sobre(models.Model):
+    texto = models.CharField(max_length=5000)

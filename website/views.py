@@ -1,5 +1,5 @@
 from django.shortcuts import render
-from .models import Ator, Elenco
+from .models import Ator, Elenco, Index, Sobre
 
 # atores = [
 
@@ -148,7 +148,7 @@ from .models import Ator, Elenco
 
 def index(request):
     context = {
-        "atores": Ator.objects.all()
+        "index": Index.objects.first()
     }
     return render(request, "website/index.html", context)
 
@@ -166,6 +166,6 @@ def ator(request, id_ator):
 
 def sobre(request):
     context = {
-        "atores": Ator.objects.all()
+        "sobre": Sobre.objects.first()
     }
     return render(request, "website/sobre.html", context)
