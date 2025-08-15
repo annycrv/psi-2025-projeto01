@@ -8,8 +8,8 @@
         <!-- Lista de atores-->
         {% for item in elenco %}
         <div class="col-md-4 py-4">
-            {% comment %} <a href="{% url 'atores' atores.id  %}"> {% endcomment %}
-                {% comment %} <h2 class="ator-nome text-center">{{ atores.nome }}</h2>  {% endcomment %}
+            <a href="{% url 'ator' item.id  %}"> 
+                <h2 class="ator-nome text-center">{{ item.nome }}</h2> 
                 <img src="{{ item.imagem_e.url }}"  class="imgator img-fluid rounded mb-3">
             </a>
         </div>

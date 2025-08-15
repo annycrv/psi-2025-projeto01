@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from .models import Ator, Elenco, Index, Sobre
 
 # atores = [
@@ -154,13 +154,15 @@ def index(request):
 
 def elenco(request):
     context = {
-        "elenco" : Elenco.objects.all()
+        "elenco" : Elenco.objects.all(),
+        'atores': Ator.objects.all(),
     }
     return render(request, "website/elenco.html", context)
 
 def ator(request, id_ator):
+    ator = get_object_or_404(Ator, id=id_ator)
     context = {
-        "atores": Ator.objects.all()
+        "ator": ator,
     }
     return render(request, "website/ator.html", context)
 
