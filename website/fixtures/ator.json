@@ -1,0 +1,146 @@
+[
+  {
+    "model": "website.Ator",
+    "pk": 1,
+    "fields": {
+      "nome": "Millie Bobby Brown",
+      "idade": "21 anos",
+      "personagem": "Eleven",
+      "nascimento": "2004-02-19",
+      "imagem": "imagens-ator/millie.jpg",
+      "conteudo": "Millie é uma atriz britânica que se tornou um fenômeno global ainda criança. Além de atuar, ela também é empresária e já foi indicada ao Emmy."
+    }
+  },
+  {
+    "model": "website.Ator",
+    "pk": 2,
+    "fields": {
+      "nome": "Finn Wolfhard",
+      "idade": "22 anos",
+      "personagem": "Mike Wheeler",
+      "nascimento": "2002-12-23",
+      "imagem": "imagens-ator/finn.jpg",
+      "conteudo": "Finn é ator e músico canadense. Participou de filmes como It: A Coisa e também é vocalista da banda The Aubreys."
+    }
+  },
+  {
+    "model": "website.Ator",
+    "pk": 3,
+    "fields": {
+      "nome": "Noah Schnapp",
+      "idade": "20 anos",
+      "personagem": "Will Byers",
+      "nascimento": "2004-10-03",
+      "imagem": "imagens-ator/noah.jpg",
+      "conteudo": "Noah começou sua carreira dublando Charlie Brown e ganhou reconhecimento mundial em Stranger Things. Ele também estuda na Universidade da Pensilvânia."
+    }
+  },
+  {
+    "model": "website.Ator",
+    "pk": 4,
+    "fields": {
+      "nome": "Sadie Sink",
+      "idade": "23 anos",
+      "personagem": "Maxine Mayfield",
+      "nascimento": "2002-04-16",
+      "imagem": "imagens-ator/sadie.jpg",
+      "conteudo": "Sadie é atriz e modelo. Já participou de produções da Broadway e chamou atenção em Stranger Things e no curta de Taylor Swift, 'All Too Well'."
+    }
+  },
+  {
+    "model": "website.Ator",
+    "pk": 5,
+    "fields": {
+      "nome": "Caleb McLaughlin",
+      "idade": "23 anos",
+      "personagem": "Lucas Sinclair",
+      "nascimento": "2001-10-13",
+      "imagem": "imagens-ator/caleb.jpg",
+      "conteudo": "Caleb começou no teatro interpretando Simba em O Rei Leão na Broadway. É conhecido por seu ativismo e presença positiva nas redes sociais."
+    }
+  },
+  {
+    "model": "website.Ator",
+    "pk": 6,
+    "fields": {
+      "nome": "Gaten Matarazzo",
+      "idade": "22 anos",
+      "personagem": "Dustin Henderson",
+      "nascimento": "2002-09-08",
+      "imagem": "imagens-ator/gaten.jpg",
+      "conteudo": "Gaten também veio do teatro musical e é um defensor da displasia cleidocraniana, condição que ele possui. É carismático e engajado com causas sociais."
+    }
+  },
+  {
+    "model": "website.Ator",
+    "pk": 7,
+    "fields": {
+      "nome": "Natalia Dyer",
+      "idade": "30 anos",
+      "personagem": "Nancy Wheeler",
+      "nascimento": "1995-01-13",
+      "imagem": "imagens-ator/natalia.jpg",
+      "conteudo": "Natalia é atriz desde a adolescência. Tem um estilo discreto e já participou de filmes independentes e séries além de Stranger Things."
+    }
+  },
+  {
+    "model": "website.Ator",
+    "pk": 8,
+    "fields": {
+      "nome": "Joe Keery",
+      "idade": "33 anos",
+      "personagem": "Steve Harrington",
+      "nascimento": "1992-04-24",
+      "imagem": "imagens-ator/joe.jpg",
+      "conteudo": "Joe é ator e também músico, com o projeto solo 'Djo'. Seu personagem ganhou grande destaque por sua evolução e carisma."
+    }
+  },
+  {
+    "model": "website.Ator",
+    "pk": 9,
+    "fields": {
+      "nome": "Charlie Heaton",
+      "idade": "31 anos",
+      "personagem": "Jonathan Byers",
+      "nascimento": "1994-02-06",
+      "imagem": "imagens-ator/charlie.jpg",
+      "conteudo": "Charlie é britânico e já foi baterista antes de atuar. Tem um estilo mais reservado e é namorado de Natalia Dyer na vida real."
+    }
+  },
+  {
+    "model": "website.Ator",
+    "pk": 10,
+    "fields": {
+      "nome": "Winona Ryder",
+      "idade": "53 anos",
+      "personagem": "Joyce Byers",
+      "nascimento": "1971-10-29",
+      "imagem": "imagens-ator/winona2.jpg",
+      "conteudo": "Winona é uma lenda de Hollywood, famosa desde os anos 90 por filmes como 'Edward Mãos de Tesoura' e 'Beetlejuice'."
+    }
+  },
+  {
+    "model": "website.Ator",
+    "pk": 11,
+    "fields": {
+      "nome": "David Harbour",
+      "idade": "50 anos",
+      "personagem": "Jim Hopper",
+      "nascimento": "1975-04-10",
+      "imagem": "imagens-ator/david.jpg",
+      "conteudo": "David teve uma carreira longa no teatro e TV antes do sucesso como Hopper. Também atuou em filmes como Hellboy e Viúva Negra."
+    }
+  },
+  {
+    "model": "website.Ator",
+    "pk": 12,
+    "fields": {
+      "nome": "Jamie Campbell Bower",
+      "idade": "36 anos",
+      "personagem": "Vecna",
+      "nascimento": "1988-11-22",
+      "imagem": "imagens-ator/jamie.jpg",
+      "conteudo": "Jamie é ator, cantor e modelo britânico. Atuou em 'Crepúsculo' e 'Harry Potter', e surpreendeu o público com sua atuação intensa como Vecna."
+    }
+  }
+]

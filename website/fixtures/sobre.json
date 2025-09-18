@@ -1,0 +1,9 @@
+[
+  {
+    "model": "website.sobre",
+    "pk": 1,
+    "fields": {
+      "texto":"Stranger Things é uma série de ficção científica e suspense que conquistou milhões de fãs ao redor do mundo desde sua estreia em 2016. Ambientada nos anos 80, a história gira em torno de acontecimentos sobrenaturais que ocorrem na pequena cidade de Hawkins, Indiana. Misturando elementos de terror, nostalgia, amizade e aventura, a série cativa o público com seu enredo envolvente e referências à cultura pop da época.Nosso site foi criado especialmente para quem deseja conhecer mais sobre o universo de Stranger Things. Aqui, reunimos informações sobre os personagens, curiosidades sobre a trama, conexões entre as temporadas e detalhes sobre os acontecimentos mais marcantes da série. O conteúdo foi organizado de forma clara e acessível, com o objetivo de facilitar a navegação e o aprendizado.Este projeto foi desenvolvido por Anny Carolline e Williany Vitória como parte de uma atividade escolar. Nosso objetivo é unir entretenimento e conhecimento, apresentando de forma criativa uma das séries mais populares da atualidade. Esperamos que você aproveite o conteúdo e se aprofunde ainda mais nesse mundo cheio de mistérios e aventuras!"
+    }
+  }
+]

@@ -1,0 +1,34 @@
+[
+  {
+    "model": "website.carrossel",
+    "pk": 1,
+    "fields": {
+      "nome": "1ºtemporada",
+      "imagem": "imagens-carrossel/slide1"
+    }
+  },
+    {
+    "model": "website.carrossel",
+    "pk": 2,
+    "fields": {
+      "nome": "2ºtemporada",
+      "imagem": "imagens-carrossel/slide2"
+    }
+  },
+    {
+    "model": "website.carrossel",
+    "pk": 3,
+    "fields": {
+      "nome": "3ºtemporada",
+      "imagem": "imagens-carrossel/slide3"
+    }
+  },
+    {
+    "model": "website.carrossel",
+    "pk": 4,
+    "fields": {
+      "nome": "4ºtemporada",
+      "imagem": "imagens-carrossel/slide4"
+    }
+  }
+]
