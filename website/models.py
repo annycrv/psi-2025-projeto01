@@ -29,12 +29,3 @@ class Index(models.Model):
 class Sobre(models.Model):
     texto = models.CharField(max_length=5000)
 
-class Carrossel(models.Model):
-    nome = models.CharField(max_length=50)
-    imagem = models.ImageField(upload_to='imagens-carrossel')
-
-    def __str__(self):
-        return self.nome
-    
-    class Meta:
-        verbose_name_plural = "Carrossel"
